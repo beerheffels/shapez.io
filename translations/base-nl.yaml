@@ -7,14 +7,14 @@ steamPage:
         Shapez.io is een spel waarin je fabrieken moet bouwen voor de
         automatische productie van geometrische vormen.
 
-        Naarmate het spel vordert, worden de vormen complexer, en moet je uitbreiden in het oneindige speelveld.
+        Naarmate het spel vordert, worden de vormen complexer en moet je uitbreiden in het oneindige speelveld.
 
         En als dat nog niet genoeg is moet je ook nog eens steeds meer produceren om aan de vraag te kunnen voldoen. Het enige dat helpt is uitbreiden!
 
         Ondanks het feit dat je in het begin alleen vormen maakt, komt er het punt waarop je ze moet kleuren. Deze kleuren moet je vinden en mengen!
 
-        Door het spel op Steam te kopen kun je de volledige versie spelen. Je kunt echter ook een demo versie spelen op shapez.io en later beslissen om over te schakelen zonder voortgang te verliezen.
-    what_others_say: What people say about shapez.io
+        Door het spel op Steam te kopen kun je de volledige versie spelen. Je kunt echter ook een demon versie spelen op shapez.io en later beslissen om over te schakelen zonder voortgang te verliezen.
+    what_others_say: Wat mensen zeggen over shapez.io
     nothernlion_comment: This game is great - I'm having a wonderful time playing,
         and time has flown by.
     notch_comment: Oh crap. I really should sleep, but I think I just figured out
@@ -29,12 +29,12 @@ global:
     decimalSeparator: ","
     suffix:
         thousands: K
-        millions: M
-        billions: B
-        trillions: T
+        millions: MLN
+        billions: MLD
+        trillions: B
     infinite: ∞
     time:
-        oneSecondAgo: een seconde geleden
+        oneSecondAgo: één seconde geleden
         xSecondsAgo: <x> seconden geleden
         oneMinuteAgo: één minuut geleden
         xMinutesAgo: <x> minuten geleden
@@ -68,7 +68,7 @@ mainMenu:
     savegameLevel: Level <x>
     savegameLevelUnknown: Level onbekend
     continue: Ga verder
-    newGame: Nieuw Spel
+    newGame: Nieuw spel
     madeBy: Gemaakt door <author-link>
     subreddit: Reddit
     savegameUnnamed: Naamloos
@@ -96,9 +96,9 @@ dialogs:
         text: "Het laden van je savegame is mislukt:"
     confirmSavegameDelete:
         title: Bevestig het verwijderen
-        text: Ben je zeker dat je het volgende spel wil verwijderen?<br><br>
+        text: Weet je zeker dat je het volgende spel wil verwijderen?<br><br>
             '<savegameName>' op niveau <savegameLevel><br><br> Dit kan niet
-            ongedaan worden gemaakt!
+            ongedaan worden!
     savegameDeletionError:
         title: Verwijderen mislukt
         text: "Het verwijderen van de savegame is mislukt:"
@@ -139,7 +139,7 @@ dialogs:
             Weet je zeker dat je dit wil doen?
     blueprintsNotUnlocked:
         title: Nog niet ontgrendeld
-        desc: Blauwdrukken zijn nog niet ontgrendeld! Voltooi meer levels om ze te
+        desc: Plattegronden zijn nog niet ontgrendeld! Voltooi meer levels om ze te
             ontgrendelen.
     keybindingsIntroduction:
         title: Handige sneltoetsen
@@ -181,11 +181,11 @@ dialogs:
         title: Hernoem opgeslagen spel
         desc: Geef je opgeslagen spel een nieuwe naam.
     tutorialVideoAvailable:
-        title: Tutorial Beschikbaar
+        title: Tutorial beschikbaar
         desc: Er is een tutorial video beschikbaar voor dit level! Zou je het willen
             bekijken?
     tutorialVideoAvailableForeignLanguage:
-        title: Tutorial Available
+        title: Tutorial beschikbaar
         desc: Er is een tutorial beschikbaar voor dit level, maar het is alleen
             beschikbaar in het Engels. Zou je het toch graag kijken?
 ingame:
@@ -224,7 +224,7 @@ ingame:
         levelTitle: Level <level>
         completed: Voltooid
         unlockText: <reward> ontgrendeld!
-        buttonNextLevel: Volgende Level
+        buttonNextLevel: Volgend Level
     notifications:
         newUpgrade: Er is een nieuwe upgrade beschikbaar!
         gameSaved: Je spel is opgeslagen.
@@ -246,7 +246,7 @@ ingame:
                     inclusief tussenproducten.
             delivered:
                 title: Levering
-                description: Geeft alle vormen weer die in de HUB worden bezorgd.
+                description: Geeft alle vormen weer die in de HUB zijn bezorgd.
         noShapesProduced: Er zijn nog geen vormen geproduceerd.
         shapesDisplayUnits:
             second: <shapes>/s
@@ -266,7 +266,7 @@ ingame:
         waypoints: Markeringen
         hub: HUB
         description: Klik met de linkermuisknop op een markering om hier naartoe te
-            gaan, klik met de rechtermuisknop om de markering te
+            gaan. Klik met de rechtermuisknop om de markering te
             verwijderen.<br><br>Druk op <keybinding> om een markering te maken
             in het huidige zicht, of <strong>rechtermuisknop</strong> om een
             markering te maken bij het geselecteerde gebied.
